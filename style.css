@@ -10,6 +10,7 @@ div {
 
 .rwandaful-img {
     width: 100%;
+    display: block;
 }
 
 .rwandaful-img767 {
