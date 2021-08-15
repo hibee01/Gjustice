@@ -1,75 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
-
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap'); */
-
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    /* font-family: 'Roboto', sans-serif; */
-}
-
-#header {
-    background-image: url(img/gj-bg.jpg);
-    height: 60vh;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 2rem;
-}
-
-.container-1 {
-    width: 60%;
-    margin: 0 auto;
-    /* background-color: red; */
-}
-
-.project-header {
-    margin: 1.2rem 0 1.5rem 0;
-}
-
-.project-body {
-    line-height: 2;
-    margin-bottom: 1.5rem;
-}
-
-#project ul {
-    margin: 2rem;
-}
-
-#project ul li {
-    margin-top: 1rem;
-}
-
-/* Wireframe scetion */
-
-.wireframe-img {
+.rwandaful-img {
     width: 100%;
 }
 
-.wireframe-mobile {
+.rwandaful-img767 {
     display: none;
 }
 
-/* Design sction */
 
-.design-img {
-    width: 50%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.appscreen {
-    width: 100%;
-}
-
-.app-screen-mobile {
-    display: none;
+@media (max-width: 767px) {
+    .rwandaful-img {
+        display: none;
+    }
+    
+    .rwandaful-img767 {
+        width: 100%;
+        display: block;
+    }
+    
 }
